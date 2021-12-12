@@ -27,9 +27,9 @@
         - React uses a declarative way to manipulate the UI
 
   * State
-        -State behaves like a snapshot
-        -Changing state triggers a re-render
-        -During "re-render" a new "snapshot" is created (JSX)
+        * State behaves like a snapshot
+        * Changing state triggers a re-render
+        * During "re-render" a new "snapshot" is created (JSX)
         -This new snapshot is what gets updated to the screen (Virtual DOM => Browser DOM)
         -Class components store state in an object, function components use hooks
         -React batches state updates (waits until all code in event handlers has run)
