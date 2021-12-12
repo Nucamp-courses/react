@@ -27,16 +27,16 @@
         - React uses a declarative way to manipulate the UI
 
   * State
-        - State behaves like a snapshot
-        - Changing state triggers a re-render
-        - During "re-render" a new "snapshot" is created (JSX)
-        - This new snapshot is what gets updated to the screen (Virtual DOM => Browser DOM)
-        - Class components store state in an object, function components use hooks
-        - React batches state updates (waits until all code in event handlers has run)
-        - State can hold any data (primitive or non-primitive)
-        - React recommends treating all state as non-primitive data (state == read only)
-        - Treating all state as read-only (non-mutable) guarantees a re-render
-        - A common pattern is to use the spread operator (...) to copy arrays or objects
+        -State behaves like a snapshot
+        -Changing state triggers a re-render
+        -During "re-render" a new "snapshot" is created (JSX)
+        -This new snapshot is what gets updated to the screen (Virtual DOM => Browser DOM)
+        -Class components store state in an object, function components use hooks
+        -React batches state updates (waits until all code in event handlers has run)
+        -State can hold any data (primitive or non-primitive)
+        -React recommends treating all state as non-primitive data (state == read only)
+        -Treating all state as read-only (non-mutable) guarantees a re-render
+        -A common pattern is to use the spread operator (...) to copy arrays or objects
 
 #### Week 3
 
