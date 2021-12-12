@@ -100,4 +100,4 @@ function getBigParkNames(parks, minSize) {
     return result;
 }
 
-console.log(getBigParkNames(parks, 740)); // ["Canyonlands", "Zion"]
+console.log(getBigParkNames(parks, 740)); // ["Canyonlands", "Crater Lake"]
