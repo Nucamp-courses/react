@@ -12,21 +12,21 @@
 #### Week 2
 
   * What is React?
-  * JSX 
+  * JSX: 
     * Syntax extension to JavaScript (describes what the UI should look like)
     * Gets transpiled to React.createElement methods (syntactic sugar)
     * React.createElement => returns a React element
     * React element(s) gets rendered to root DOM nodes via ReactDOM.render()
     * React elements are immutable; changes made during reconciliation (i.e. Diffing)
 
-  * Components 
+  * Components:
     * UI building blocks (reusable UI elements for your app)
     * Combining HTML, CSS and JavaScript <ComponentName />
     * Can be nested just like regular HTML
     * If needed, multiple components can be defined in one file (tightly coupled)
     * React uses a declarative way to manipulate the UI
 
-  * State
+  * State:
     * State behaves like a snapshot
     * Changing state triggers a re-render
     * During "re-render" a new "snapshot" is created (JSX)
