@@ -25,6 +25,7 @@
     * Can be nested just like regular HTML
     * If needed, multiple components can be defined in one file (tightly coupled)
     * React uses a declarative way to manipulate the UI
+    * Can have .jsx or .js extension
 
   * State:
     * State behaves like a snapshot
@@ -40,6 +41,9 @@
 
 #### Week 3
 
+  * Hooks
+    * useState()
+    * useEffect()   
 
 
   
