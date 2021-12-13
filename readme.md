@@ -43,7 +43,19 @@
 
   * Hooks
     * useState()
-    * useEffect()   
+    * useEffect()
+      * API calls with native fetch()
+      * Asynchronous vs synchronous programming
+      * Promises
 
+#### Week 4
 
+  * Other hooks:
+    * useContext()
+    * useReducer()
+  * Redux
+
+#### Week 5
+
+  * Redux
   
