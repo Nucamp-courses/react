@@ -3,5 +3,6 @@
 #### Components
 
 * App
+* Greeting
 * Title
-* 
+* Input
