@@ -1,7 +1,6 @@
-// https://www.npmjs.com/package/uuid
 import { v4 as uuid4 } from "uuid";
 
-export const listoftodos = [
+export const listOfTodos = [
     {
         id: uuid4(),
         text: "goto gym",

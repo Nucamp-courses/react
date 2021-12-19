@@ -13,14 +13,27 @@
                 <TodoList /> 
                           <Todo />
 
+           When the todo state array changes, App, TodoList, and Todo will be re-rendered
+           because they are all dependent on the todos state array.
+
+           Whenever state or props change, the component will be re-rendered.
+             - State changes in App, and props changes in TodoList, Todo.
+
 */
 
-function Todo({ todo, index }) {
+function Todo({ todo, index, completeTodo }) {
     return (
       <li key={index}>
-        <input type="checkbox" /> <span> {todo.text} </span>
+        <input 
+           type="checkbox"
+           checked={todo.isCompleted}
+           onChange={()=> completeTodo(todo.id)}
+           /> 
+        <span style={{ textDecoration: todo.isCompleted ? "line-through" : "" }}>
+           {" "}{todo.text}{" "}
+        </span>
       </li>
     );
-  }
+}
   
   export default Todo;  
